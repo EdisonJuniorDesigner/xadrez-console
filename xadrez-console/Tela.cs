@@ -7,6 +7,7 @@ namespace xadrez_console
     {
         public static void imprimirTabuleiro(Tabuleiro tab)
         {
+            // Aqui criamos o tabuleiro percorrendo a matriz
             for (int i = 0; i < tab.linhas; i++)
             {
                 for (int j = 0; j < tab.colunas; j++)
