@@ -15,5 +15,10 @@
             // aqui iniciamos a Quantidade de Movimentos com 0, pois as peças iniciam o jogo sem nenhum movimento.
             this.qtdeMovimentos = 0;
         }
+
+        public void incrementarQteMovimentos()
+        {
+            qtdeMovimentos++;
+        }
     }
 }
